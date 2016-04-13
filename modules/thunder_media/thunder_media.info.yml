@@ -18,4 +18,5 @@ dependencies:
   - responsive_image
   - pathauto
   - video_embed_media
+  - file_browser
 

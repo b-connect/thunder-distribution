@@ -41,6 +41,7 @@ dependencies:
   - entity_embed
   - inline_entity_form
   - linkit
+  - libraries
   - metatag
   - media_entity
   - scheduler

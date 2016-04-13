@@ -14,6 +14,7 @@ dependencies:
     - datetime
     - image
     - text
+    - file_browser
 id: media.image.default
 targetEntityType: media
 bundle: image
@@ -41,11 +42,21 @@ content:
   field_image:
     weight: 1
     settings:
-      progress_indicator: throbber
-      preview_image_style: thumbnail
+      entity_browser: browse_files_modal
+      field_widget_edit: '1'
+      field_widget_remove: '1'
+      view_mode: default
+      field_widget_display: ''
+      open: 0
+      field_widget_display_settings: {  }
     third_party_settings: {  }
-    type: image_image
-  field_source:
+    type: file_browser
+  langcode:
+    type: language_select
+    weight: 2
+    settings: {  }
+    third_party_settings: {  }
+  name:
     type: string_textfield
     weight: 4
     settings:

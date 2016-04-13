@@ -14,6 +14,10 @@ projects:
     type: "module"
     version: "3.0-alpha26"
 
+  dropzonejs:
+    type: "module"
+    version: "1.0-alpha1"
+
   embed:
     type: "module"
     version: "1.0-rc2"
@@ -21,6 +25,13 @@ projects:
   entity:
     type: "module"
     version: "1.0-alpha3"
+
+  entity_browser:
+    type: "module"
+    download:
+      url: "http://git.drupal.org/project/entity_browser.git"
+      revision: "5b72762aa220d8dcdd1e3414d29f1b6634af4c35"
+      branch: "8.x-1.x"
 
   entity_embed:
     type: "module"
@@ -45,6 +56,13 @@ projects:
     download:
       url: "http://git.drupal.org/project/field_group.git"
       revision: "14173e352948b97a455b48586d3e022a864a38c6"
+      branch: "8.x-1.x"
+
+  file_browser:
+    type: "module"
+    download:
+      url: "http://git.drupal.org/project/file_browser.git"
+      revision: "f8ae30f5aa263a7982d1288a2d2a898aa30f5f3f"
       branch: "8.x-1.x"
 
   focal_point:
@@ -79,6 +97,13 @@ projects:
   linkit:
     type: "module"
     version: "4.1"
+
+  libraries:
+    type: "module"
+    download:
+      url: "http://git.drupal.org/project/libraries.git"
+      revision: "52e91afc55235d88879058b45d2e351ff1319dae"
+      branch: "8.x-3.x"
 
   media_entity:
     type: "module"
@@ -159,3 +184,23 @@ projects:
       url: "https://git.drupal.org/project/views_load_more.git"
       revision: "178d32195253207cc74097296e25079a23f0b2e5"
       branch: "8.x-1.x"
+
+
+libraries:
+  dropzone:
+    type: "library"
+    download:
+      type: "get"
+      url: "https://github.com/enyo/dropzone/archive/v4.3.0.zip"
+
+  imagesloaded:
+    type: "library"
+    download:
+      type: "get"
+      url: "https://github.com/desandro/imagesloaded/archive/v3.2.0.zip"
+
+  masonry:
+    type: "library"
+    download:
+      type: "get"
+      url: "https://github.com/desandro/masonry/archive/v3.3.2.zip"
