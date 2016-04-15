@@ -1,0 +1,5 @@
+services:
+  thunder.config_updater:
+    class: Drupal\thunder\Config\ConfigUpdater
+    arguments: ['@entity_type.manager', '@config.storage', '@config.factory']
+
