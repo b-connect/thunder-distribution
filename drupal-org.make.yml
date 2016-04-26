@@ -30,7 +30,7 @@ projects:
     type: "module"
     download:
       url: "http://git.drupal.org/project/entity_browser.git"
-      revision: "5b72762aa220d8dcdd1e3414d29f1b6634af4c35"
+      revision: "7871eadfc5569810dd5610c9006091b81d1590f9"
       branch: "8.x-1.x"
 
   entity_embed:
@@ -62,7 +62,7 @@ projects:
     type: "module"
     download:
       url: "http://git.drupal.org/project/file_browser.git"
-      revision: "f8ae30f5aa263a7982d1288a2d2a898aa30f5f3f"
+      revision: "b02f775bc7a9bdf70c3e505b50ddb55c3e9c1f96"
       branch: "8.x-1.x"
 
   focal_point:
