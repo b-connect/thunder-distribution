@@ -8,13 +8,11 @@ dependencies:
     - field.field.media.image.field_image
     - field.field.media.image.field_source
     - field.field.media.image.field_tags
-    - image.style.thumbnail
     - media_entity.bundle.image
   module:
     - datetime
-    - image
-    - text
     - file_browser
+    - text
 id: media.image.default
 targetEntityType: media
 bundle: image
@@ -51,18 +49,6 @@ content:
       field_widget_display_settings: {  }
     third_party_settings: {  }
     type: file_browser
-  langcode:
-    type: language_select
-    weight: 2
-    settings: {  }
-    third_party_settings: {  }
-  name:
-    type: string_textfield
-    weight: 4
-    settings:
-      size: 60
-      placeholder: ''
-    third_party_settings: {  }
   name:
     type: string_textfield
     weight: 0
@@ -72,6 +58,7 @@ content:
     third_party_settings: {  }
 hidden:
   created: true
+  field_source: true
   field_tags: true
   langcode: true
   uid: true
