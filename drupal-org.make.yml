@@ -30,8 +30,10 @@ projects:
     type: "module"
     download:
       url: "http://git.drupal.org/project/entity_browser.git"
-      revision: "7871eadfc5569810dd5610c9006091b81d1590f9"
+      revision: "2a7b34299ac303eefe1a54ba29839267e9b6400a"
       branch: "8.x-1.x"
+    patch:
+      - "https://www.drupal.org/files/issues/use-admin-route.patch"
 
   entity_embed:
     type: "module"
@@ -62,7 +64,7 @@ projects:
     type: "module"
     download:
       url: "http://git.drupal.org/project/file_browser.git"
-      revision: "b02f775bc7a9bdf70c3e505b50ddb55c3e9c1f96"
+      revision: "785da4913e33875694527bcd0843574554db2a3a"
       branch: "8.x-1.x"
 
   focal_point:
