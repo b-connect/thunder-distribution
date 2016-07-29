@@ -104,6 +104,8 @@ projects:
   media_entity:
     type: "module"
     version: "1.3"
+    patch:
+      - https://www.drupal.org/files/issues/add_contextual_links-2775131-2.patch
 
   media_entity_browser:
     type: "module"

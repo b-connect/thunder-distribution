@@ -43,6 +43,7 @@ dependencies:
   - linkit
   - metatag
   - media_entity
+  - quickedit
   - scheduler
   - simple_sitemap
   - slick_media

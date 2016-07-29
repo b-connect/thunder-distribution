@@ -55,6 +55,7 @@ projects[linkit][type] = module
 projects[linkit][version] = 4.1
 projects[media_entity][type] = module
 projects[media_entity][version] = 1.3
+projects[media_entity][patch][] = https://www.drupal.org/files/issues/add_contextual_links-2775131-2.patch
 projects[media_entity_browser][type] = module
 projects[media_entity_browser][download][url] = http://git.drupal.org/project/media_entity_browser.git
 projects[media_entity_browser][download][revision] = 1f9a47a5b7efacc969367b907e8f033db18bdbae
